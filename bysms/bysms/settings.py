@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "common.apps.CommonConfig",    #  新增一条告诉django,CommonConfig 是 common/apps.py 文件中定义的一个应用配置的类
 ]
 
 MIDDLEWARE = [
